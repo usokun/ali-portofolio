@@ -1,4 +1,4 @@
-import Link from "next/link";
+// import Link from "next/link";
 import { experienceData } from "../../data/experience-data";
 
 export default function ExperiencePage() {
@@ -16,11 +16,11 @@ export default function ExperiencePage() {
             <div className="flex justify-start w-full p-1 text-sm text-slate-500">
               {experience.startTime} - {experience.endTime}
             </div>
-            <Link href={experience.link} target="_blank">
-              <div className="flex justify-start w-full p-1 text-lg text-slate-200 font-medium hover:underline focus:underline hover:text-[#BA0000]">
-                {experience.title}
-              </div>
-            </Link>
+            {/* <Link href={experience.link} target="_blank"> */}
+            <div className="flex justify-start w-full p-1 text-lg text-slate-200 font-medium hover:underline focus:underline hover:text-[#BA0000]">
+              {experience.title}
+            </div>
+            {/* </Link> */}
 
             <div className="flex justify-start w-full p-1 text-base text-slate-400">
               {experience.description}
