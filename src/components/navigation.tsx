@@ -247,7 +247,7 @@ export default function Navigation({
                       </TooltipTrigger>
                       <TooltipContent>
                         <span className="p-2 bg-slate-200 rounded-xl">
-                          Contact My WhatsApp
+                          Whatsapp Contact
                         </span>
                       </TooltipContent>
                     </Tooltip>
